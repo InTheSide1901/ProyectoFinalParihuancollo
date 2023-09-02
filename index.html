@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+<body>
+<div class="body2">
+    <header>
+        <h1>¡Bienvenido al juego de la adivinanza!</h1>
+    </header>
+    <main>
+        <h3>Aquí puedes participar en el juego de la adivinanza</h3>
+        <p>Presiona el botón "INICIAR" para comenzar.</p>
+        <div class="boton_enviar">
+            <input id="nombre_jugador" type="text" placeholder="Nombre">
+            <button id="iniciar_juego">INICIAR</button>
+        </div>
+        <p id="primer_mensaje">
+        </p>
+        <div class="botones10">
+            <button class="num-button">1</button>
+            <button class="num-button">2</button>
+            <button class="num-button">3</button>
+            <button class="num-button">4</button>
+            <button class="num-button">5</button>
+            <button class="num-button">6</button>
+            <button class="num-button">7</button>
+            <button class="num-button">8</button>
+            <button class="num-button">9</button>
+            <button class="num-button">10</button>
+        </div>
+        <p id="segundo_mensaje"></p>
+        <div class="botones_volver">
+            <button id="jugar_si">Volver a jugar</button>
+            <button id="jugar_no">No volver a jugar</button>
+        </div>
+        <div class="botones">
+            <button id="boton_ganadores">ganadores</button>
+            <p id="info_ganadores"></p>
+            <button id="boton_perdedores">perdedores</button>
+            <p id="info_perdedores"></p>
+            <button id="exportar_historial">Exportar Historial a JSON</button>
+        </div>
+    </main>
+</div>
+    <footer>
+        <h4>Todos los derechos reservados</h4>
+    </footer>
+
+    <script src="./javaScript/main.js"></script>
+    
+</body>
+</html>

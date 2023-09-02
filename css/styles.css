@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+.body2 {
+    padding: 0 40px;
+    margin-bottom: 200px;  /*esto solo lo hice para mantener el footer abajo*/
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    font-size: 60px;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+footer h4{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+    margin: 0;
+
+}
+.botones10 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.botones10 .num-button{
+    width: 50px;
+    height: 50px;
+}
+.boton_enviar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.boton_enviar input {
+    height: 40px;
+    width: 300px;
+    min-width: 150px;
+    max-width: 250px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+button{
+    font-size: 15px;
+}
+.boton_enviar button{
+    height: 50px;
+    width: 150px;
+    
+}
+.botones_volver{
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 0 auto;
+
+}
+.botones_volver button{
+    height: 50px;
+    width: 150px;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.botones button{
+    width: 200px;
+    height: 50px;
+}
